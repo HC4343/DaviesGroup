@@ -20,11 +20,13 @@ And I created utilities package which stores my Driver, Configuration Reader and
 
 How to download project:
 
-After clicking my github url you will be navigated the project in GitHub
+After clicking my github url you will be navigated to the project in GitHub
 
-At the right top of the project you will see clone button with a url
+At the right top of the project you will see Code button, when you clich it you will see clone button with a url
 
-By copying this url to any IDE you will be able to download project and run test cases from your local
+First need to copy that url. When you open any IDE, you will see an option to create a new project. 
+
+By copying the url you will be able to download project and run test cases from your local.
 
 
 
