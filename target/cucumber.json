@@ -1,0 +1,576 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-15T17:35:39.759Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3495285840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User navigates Twitter website from HomePage",
+        "description": "",
+        "id": "homepage;user-navigates-twitter-website-from-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 490643148,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2625754798,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomePageStepDefs.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12425443634,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the Twitter Icon",
+            "match": {
+              "location": "HomePageStepDefs.user_clicks_the_Twitter_Icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1054648421,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be on Twitter website",
+            "match": {
+              "location": "HomePageStepDefs.user_should_be_on_Twitter_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePageTest"
+          },
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@TwitterTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-15T17:35:59.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2602791930,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User navigates LinkedIn website from HomePage",
+        "description": "",
+        "id": "homepage;user-navigates-linkedin-website-from-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 586188384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2776904346,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomePageStepDefs.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12433968763,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks the LinkedIn Icon",
+            "match": {
+              "location": "HomePageStepDefs.user_clicks_the_LinkedIn_Icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1016621979,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be on LinkedIn website",
+            "match": {
+              "location": "HomePageStepDefs.user_should_be_on_LinkedIn_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePageTest"
+          },
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@LinkedInTest"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HomePage.feature",
+    "tags": [
+      {
+        "name": "@HomePageTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@TestSuit",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-15T17:36:19.316Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2594597069,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User captures Stoke Office address from map",
+        "description": "",
+        "id": "locations-page;user-captures-stoke-office-address-from-map",
+        "after": [
+          {
+            "result": {
+              "duration": 460521596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2571519359,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomePageStepDefs.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1155100089,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to About Module",
+            "match": {
+              "location": "LocationsStepDefs.user_navigates_to_About_Module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1023808760,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Locations Submodule",
+            "match": {
+              "location": "LocationsStepDefs.user_clicks_Locations_Submodule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3252487251,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates Stoke Office Location on map",
+            "match": {
+              "location": "LocationsStepDefs.user_navigates_Stoke_Office_Location_on_map()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1033626282,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should capture the Stoke Office address",
+            "match": {
+              "location": "LocationsStepDefs.user_should_capture_the_Stoke_Office_address()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LocationsTest"
+          },
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@StokeOfficeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Locations Page",
+    "description": "",
+    "id": "locations-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LocationsPage.feature",
+    "tags": [
+      {
+        "name": "@LocationsTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@TestSuit",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Navigates up to Fire Investigation Case Study",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2253669104,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomePageStepDefs.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 701710268,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to Solutions Module",
+            "match": {
+              "location": "SolutionsStepDefs.user_navigates_to_Solutions_Module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15236342865,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User finds Fire Investigation Case Study",
+            "match": {
+              "location": "SolutionsStepDefs.user_finds_Fire_Investigation_Case_Study()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 804584385,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Fire Investigation Case Study",
+            "match": {
+              "location": "SolutionsStepDefs.user_clicks_on_Fire_Investigation_Case_Study()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-15T17:36:31.416Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2610026748,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User validates the page url",
+        "description": "",
+        "id": "solutions-page;user-validates-the-page-url",
+        "after": [
+          {
+            "result": {
+              "duration": 674027898,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39074916,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be in Fire Investigation Case Study page",
+            "match": {
+              "location": "SolutionsStepDefs.user_should_be_in_Fire_Investigation_Case_Study_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SolutionsTest"
+          },
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@CaseStudyTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User Navigates up to Fire Investigation Case Study",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2485627141,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomePageStepDefs.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691930467,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to Solutions Module",
+            "match": {
+              "location": "SolutionsStepDefs.user_navigates_to_Solutions_Module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15360914860,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User finds Fire Investigation Case Study",
+            "match": {
+              "location": "SolutionsStepDefs.user_finds_Fire_Investigation_Case_Study()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812437330,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Fire Investigation Case Study",
+            "match": {
+              "location": "SolutionsStepDefs.user_clicks_on_Fire_Investigation_Case_Study()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-15T17:36:53.742Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2299474386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User captures Result Section in Fire Investigation Case Study page",
+        "description": "",
+        "id": "solutions-page;user-captures-result-section-in-fire-investigation-case-study-page",
+        "after": [
+          {
+            "result": {
+              "duration": 466899679,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070755184,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should capture the Result Section",
+            "match": {
+              "location": "SolutionsStepDefs.user_should_capture_the_Result_Section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SolutionsTest"
+          },
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@ResultSectionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Solutions Page",
+    "description": "",
+    "id": "solutions-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SolutionsPage.feature",
+    "tags": [
+      {
+        "name": "@SolutionsTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@TestSuit",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
+  }
+]
