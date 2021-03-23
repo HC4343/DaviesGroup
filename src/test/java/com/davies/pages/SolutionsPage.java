@@ -5,9 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SolutionsPage extends BasePage{
+public class SolutionsPage{
 
-    public SolutionsPage() { PageFactory.initElements(Driver.get(), this);
+    public SolutionsPage() {
+        PageFactory.initElements(Driver.get(), this);
     }
 
     @FindBy(css = "li#menu-item-18257 > a")

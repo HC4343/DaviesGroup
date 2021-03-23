@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-    @Before
+   @Before
     public void setUp(){
         Driver.get().manage().window().maximize();
     }
