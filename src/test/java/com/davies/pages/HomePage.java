@@ -12,7 +12,7 @@ public class HomePage extends BasePage{
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(css = "svg[width='40']")
+    @FindBy(xpath = "//*[contains(@href, 'twitter')]")
     public WebElement twitterIcon;
 
     @FindBy(css = "svg[width='41']")
